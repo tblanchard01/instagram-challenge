@@ -1,0 +1,21 @@
+<h2>New vPost </h2>
+
+
+<%= form_with scope: :vpost, url: vposts_path, local: true do |form| %>
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= form.label :image %><br>
+    <%= form.text_field :image %>
+  </p>
+ 
+  <p>
+    <%= form.submit "share vPost" %>
+  </p>
+<% end %>
+
+
+<%# text == image FOR RAILS  %>
