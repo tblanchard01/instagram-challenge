@@ -9,12 +9,12 @@ class VpostsController < ApplicationController
     @vpost.save
     end
 
-  def show
-    @vpost = Vpost.find(params[:id])
-end
+    def index 
+    @vposts = Vpost.all 
+    end 
 
-    private
+     private
   def vpost_params
-    params.require(:vpost).permit(:title, :image)
+    params.require(:vpost).permit(:title, :image, :description)
   end
 end
