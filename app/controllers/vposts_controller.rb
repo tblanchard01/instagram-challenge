@@ -5,6 +5,16 @@ class VpostsController < ApplicationController
   end
 
   def create
-    render plain: params[:vpost].inspect
+    @vpost = Vpost.new(vpost_params)
+    @vpost.save
     end
+
+  def show
+    @vpost = Vpost.find(params[:id])
+end
+
+    private
+  def vpost_params
+    params.require(:vpost).permit(:title, :image)
+  end
 end

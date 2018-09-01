@@ -1,0 +1,5 @@
+class Addingdescriptiontovpost < ActiveRecord::Migration[5.2]
+  def change
+    add_column :vposts, :description, :string 
+  end
+end
