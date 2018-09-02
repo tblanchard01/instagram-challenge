@@ -15,7 +15,8 @@ class VpostsController < ApplicationController
     @vpost = Vpost.find(params[:id])
     end 
 
-    def index 
+    def index     
+    redirect_to home_index_path if !user_signed_in?
     @vposts = Vpost.all 
     end 
 
