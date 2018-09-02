@@ -1,14 +1,19 @@
 # frozen_string_literal: true
 
 class VpostsController < ApplicationController
+  before_action :configure_permitted_parameters, if: :devise_controller?
+  
+ 
+
   def new
   end
 
   def create
     @vpost = Vpost.new(vpost_params)
-    @vpost.username = current_user
+    @vpost.username = current_user.username
     @vpost.save
-    redirect_to @vpost #gives instance var to view 
+    # redirect_to @vpost #gives instance var to view 
+    redirect_to vposts_path 
     end
 
     def show 
@@ -20,9 +25,9 @@ class VpostsController < ApplicationController
     @vposts = Vpost.all 
     end 
 
-     private
+    private
   def vpost_params
-    params.require(:vpost).permit(:title, :image, :description)
+    params.require(:vpost).permit(:title, :image, :description, :username)
     
   end
 end

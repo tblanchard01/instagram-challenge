@@ -4,7 +4,7 @@
   <p><%= link_to "new vPost", new_vpost_path %></p>
  
  <div class = "vposts_container"> 
-   <%@vposts.each do |vpost|%>
+   <%@vposts.reverse.each do |vpost|%>
    <div class = "vpost"> 
   <h4><%= vpost.username %></h4>
   <h3><%=vpost.title%> </h3> 

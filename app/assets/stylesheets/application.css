@@ -26,6 +26,12 @@ p, h1,h2,h3,h4,h5{
     margin-left: 2%
 }
 
+a, label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+
+}
+
 .vposts_container{
    background-color: lightgray;
    padding: 5px;
