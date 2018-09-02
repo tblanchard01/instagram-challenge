@@ -1,20 +1,15 @@
 
-<h1>Listing articles</h1>
+<h1>vGram</h1>
  
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th></th>
-  </tr>
- 
-  <% @vposts.each do |vpost| %>
-    <tr>
-      <td><%= vpost.title %></td>
-      <td><img src = "<%= vpost.image %>">
-      </td>
-    </tr>
-          <td><%= link_to 'Show', vpost_path(vpost) %></td>
-
+ <div class = "vposts_container"> 
+   <%@vposts.each do |vpost|%>
+   <div class = "vpost"> 
+  <h4><%= vpost.username %></h4>
+  <h3><%=vpost.title%> </h3> 
+  
+<img src = "<%= vpost.image %>" class = "vpost_img">
+<%# <%= link_to 'Show', vpost_path(vpost) %> 
+<p> <%= vpost.description%> </p>
+  </div>
   <% end %>
-</table>
+</div>
