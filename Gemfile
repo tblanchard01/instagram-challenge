@@ -8,6 +8,9 @@ group :development, :test do
 
 end
 
+group :test do
+  gem 'simplecov', require: false
+end
 
 gem "rubocop" 
 gem "rubocop-rails"
