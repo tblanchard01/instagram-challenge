@@ -1,0 +1,112 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/controllers/vposts_controller.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/models/vpost.rb": [
+        1,
+        null
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/controllers/home_controller.rb": [
+        null,
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/helpers/home_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/helpers/vposts_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/models/application_record.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyblanchard/Projects/Makers/instagram-challenge/app/models/user.rb": [
+        0,
+        null,
+        null,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1535918698
+  }
+}
