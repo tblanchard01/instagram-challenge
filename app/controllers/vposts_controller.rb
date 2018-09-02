@@ -6,6 +6,7 @@ class VpostsController < ApplicationController
 
   def create
     @vpost = Vpost.new(vpost_params)
+    @vpost.username = current_user
     @vpost.save
     redirect_to @vpost #gives instance var to view 
     end
@@ -21,5 +22,6 @@ class VpostsController < ApplicationController
      private
   def vpost_params
     params.require(:vpost).permit(:title, :image, :description)
+    
   end
 end

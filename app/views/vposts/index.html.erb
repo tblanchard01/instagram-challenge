@@ -1,5 +1,7 @@
 
-<h1>vGram</h1>
+<h1>vGram</h1> 
+<p> you are signed in as <%=current_user.username%>   <%= link_to('Logout', destroy_user_session_path, method: :delete) %> </p>                          
+  <p><%= link_to "new vPost", new_vpost_path %></p>
  
  <div class = "vposts_container"> 
    <%@vposts.each do |vpost|%>
