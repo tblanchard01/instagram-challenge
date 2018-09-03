@@ -6,6 +6,8 @@ class VpostsController < ApplicationController
  
 
   def new
+    redirect_to ('/') if !user_signed_in?
+
   end
 
   def create
