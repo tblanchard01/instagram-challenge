@@ -15,6 +15,7 @@ end
 gem "rubocop" 
 gem "rubocop-rails"
 gem "devise"
+gem "launchy"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'

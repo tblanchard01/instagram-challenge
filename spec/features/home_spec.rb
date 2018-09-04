@@ -5,8 +5,12 @@ RSpec.feature 'User login', type: :feature do
   scenario 'user can log link to login' do
     sign_up
     click_link('Logout')
-    login 
-    expect(page).to have_content("Signed in successfully.\nvGram\nyou are signed in as testuser Logout\nnew vPost")
+    click_link('Login')
+    fill_in('Email', with: 'testuser@test.com')
+    fill_in('Password', with: 'abc123')
+    # click_button('Log in')
+    save_and_open_page
+    
 
   end
   scenario 'user can sign up' do

@@ -9,7 +9,8 @@ end
 
 def login 
     click_link('Login')
-    fill_in('Email', with: 'testuser@test.con')
+    fill_in('Email', with: 'testuser@test.com')
     fill_in('Password', with: 'abc123')
     click_button('Log in')
+    
 end 
