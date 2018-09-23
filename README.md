@@ -1,3 +1,9 @@
+To run: Git clone, then run bundle install from the terminal. Finally run the rackup comand from the terminal. After logging in you should see something similar to this: 
+
+<a href="https://ibb.co/kHTHsU"><img src="https://preview.ibb.co/gv7XRp/Screen_Shot_2018_09_23_at_17_54_14.png" alt="Screen_Shot_2018_09_23_at_17_54_14" border="0"></a>
+
+
+
 Instagram Challenge
 ===================
 
